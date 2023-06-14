@@ -1,0 +1,60 @@
+/* ////////////////////////////////////////////////////////////////part5 */
+.title__cardWrapper{
+    font-size: 18px;
+}
+.spotLightCard, .cardWrapper{
+    overflow: hidden; 
+}
+.pic1, .spotLight{
+    transition: all 500ms ease 0s;
+}
+.cardWrapper:hover .pic1{
+    transform: scale(1.05,1.05);
+}
+.cardWrapper:hover .spotLight{
+    background-color:rgb(236, 236, 236) ;
+}
+/* ////////////////////////////////////////////////////////////part8 */
+.pic2{
+    height: 517px;
+}
+.farahnaz{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.spotLightCard1, .spotLightCard2, .spotLightCard3, .cardWrapper{
+    overflow: hidden; 
+}
+.pic2, .pic3, .card__bodyleft, .card__body{
+    transition: all 500ms ease 0s;
+}  
+.cardWrapper:hover .pic2{
+    transform: scale(1.05,1.05);
+}
+.cardWrapper:hover .card__body{
+    background-color:rgb(236, 236, 236) ;
+}
+.cardWrapper:hover .pic3{
+    transform: scale(1.05,1.05);
+}
+.cardWrapper:hover .card__bodyleft{
+    background-color:rgb(236, 236, 236) ;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////part9 */
+.socialLink__title:hover{
+    text-decoration: underline;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////part10 */
+.socialMarketingImageWrapper{
+    overflow: hidden;
+}
+.socialMarketingImageWrappe, .pic4{
+    transition: all 500ms ease 0s;  
+}
+.socialMarketing__link:hover .linkBody{
+    background-color:rgba(236, 236, 236,1.5) ;
+    color: white;
+}
+.socialMarketing__link:hover .pic4{
+    transform: scale(1.05,1.05);
+}
