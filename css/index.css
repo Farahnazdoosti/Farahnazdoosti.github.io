@@ -1,5 +1,14 @@
+/* /////////////////////////////////////////////////////////////////////////////////part3 */
+.back-part3{
+    background-color: rgb(236, 236, 236);
+    /* height:90px; */
+}
+/* //////////////////////////////////////////////////////////////////////////////////part3,part9 */
+.socialLink__title:hover{
+    text-decoration: underline;
+}
 /* ////////////////////////////////////////////////////////////////////////////////part4 */
-.text-center{
+.botem35{
     margin-bottom: 35px;
 }
 /* ////////////////////////////////////////////////////////////////part5 */
@@ -19,9 +28,6 @@
     background-color:rgb(236, 236, 236) ;
 }
 /* ////////////////////////////////////////////////////////////part8 */
-.pic2{
-    height: 517px;
-}
 .farahnaz{
     padding-left: 40px;
     padding-right: 40px;
@@ -44,10 +50,6 @@
 .cardWrapper:hover .card__bodyleft{
     background-color:rgb(236, 236, 236) ;
 }
-/* ///////////////////////////////////////////////////////////////////////////////////part9 */
-.socialLink__title:hover{
-    text-decoration: underline;
-}
 /* ///////////////////////////////////////////////////////////////////////////////////part10 */
 .socialMarketingImageWrapper{
     overflow: hidden;
@@ -61,4 +63,13 @@
 }
 .socialMarketing__link:hover .pic4{
     transform: scale(1.05,1.05);
+}
+/* //////////////////////////////////////////////////////////////////////////part11 */
+.accordion-body{
+    font-size: 19px;
+}
+.footer_title_part1{
+    font-size: 19px;
+    color: rgb(105, 105, 105);
+    font-weight: bold;
 }

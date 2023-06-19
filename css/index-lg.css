@@ -1,0 +1,23 @@
+/* ////////////////////////////////////////////////////////////part8 */
+.pic2{
+    height: 543px;
+}
+/* //////////////////////////////////////////////////////////////////////////////part10 */
+.socialMarketingImageWrapper{
+    position: relative;
+}
+.linkBody{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    bottom:0;
+    height: 40%;
+    background-color: rgba(236,236,236,0.5);
+    
+}
+.socialMarketing__link:hover .linkBody{
+    background-color: rgba(85,85,85,0.5);
+    color: white;
+} 
+
+
