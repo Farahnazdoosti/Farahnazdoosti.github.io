@@ -32,3 +32,7 @@
     color: rgb(105, 105, 105);
     font-size: 19px;
 }
+.shortcut__subitem:hover{
+    text-decoration: underline;
+    color:rgb(105, 105, 105) ;
+}
