@@ -36,3 +36,13 @@
     text-decoration: underline;
     color:rgb(105, 105, 105) ;
 }
+/* //////////////////////////////////////////part12 */
+.finish__item{
+    list-style-type: none;
+}
+.copyright__legal{
+    font-size: 14px;
+}
+.copyright__logo{
+    width:50px ;
+}
