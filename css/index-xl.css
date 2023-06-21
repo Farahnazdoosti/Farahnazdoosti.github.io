@@ -43,6 +43,7 @@
 .copyright__legal{
     font-size: 14px;
 }
-.copyright__logo{
-    width:50px ;
+.finish__item:hover {
+    text-decoration: underline;
+    color:rgb(105, 105, 105) ;
 }
