@@ -1,3 +1,11 @@
+/* ////////////////////////////////////////////////////part1 */
+.navigation_icon{
+    position: relative;
+}
+.navigation_ul{
+    position: absolute;
+    left: 300px;
+}
 /* ////////////////////////////////////////////////////////////part8 */
 .pic2{
     height: 543px;
