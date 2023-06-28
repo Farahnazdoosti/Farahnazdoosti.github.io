@@ -1,10 +1,33 @@
 /* ////////////////////////////////////////////////////part1 */
 .navigation_icon{
-    position: relative;
-}
-.navigation_ul{
     position: absolute;
-    left: 530px;
+    right: 20px;
+}
+.navigation{
+    position: relative;
+    
+    
+}
+
+.nav-part2-a{
+    padding-top: 50px;
+    padding-bottom:0px;
+}
+.nav-part2-a::after {
+    content: "";
+    background-color: #000000;
+    display: block;
+    width: 100%;
+    height: 3px;
+    margin-top: 30px;
+    
+    transform: scaleX(0);
+    transition: all 230ms ease 0s;
+
+}
+
+.nav-part2-a:hover::after {
+    transform: scaleX(1);
 }
 /* ////////////////////////////////////////////////////////////part8 */
 .pic2{

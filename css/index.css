@@ -3,10 +3,22 @@
     list-style-type: none;
 }
 
+
+
+.navigation_search:hover{
+    color: black;
+
+}
 /* /////////////////////////////////////////////////////////////////////////////////part3 */
 .back-part3{
     background-color: rgb(236, 236, 236);
-    /* height:90px; */
+}
+.msiCenterLink__title{
+    font-size: 18px;
+}
+.msiCenterLink{
+    padding-left: 85px;
+    padding-right: 85px;
 }
 /* //////////////////////////////////////////////////////////////////////////////////part3,part9 */
 .socialLink__title:hover{
