@@ -1,13 +1,15 @@
+@import"variables";
+
 /* ////////////////////////////////////////////////////////////////part1 */
 .navigation_li{
-    list-style-type: none;
+    list-style-type: $_list_style_type;
 }
 .navigation_search:hover{
     color: black;
 }
 /* /////////////////////////////////////////////////////////////////////////////////part3 */
 .back-part3{
-    background-color: rgb(236, 236, 236);
+    background-color: $_background_color_1;
     height: 100px;
 }
 .msiCenterLink__title{
@@ -17,7 +19,7 @@
     font-size: calc(1vw + 15px);
 }
 .msiCenterLink__title:hover{
-    text-decoration: underline;
+    text-decoration: $_text_decoration;
 }
 /* ////////////////////////////////////////////////////////////////////////////////////part4 */
 .spotLight__productTitle{
@@ -32,13 +34,13 @@
     overflow: hidden; 
 }
 .pic1, .spotLight{
-    transition: all 500ms ease 0s;
+    transition:$_transition_1;
 }
 .cardWrapper:hover .pic1{
     transform: scale(1.05,1.05);
 }
 .cardWrapper:hover .spotLight{
-    background-color:rgb(236, 236, 236) ;
+    background-color: $_background_color_1 ;
 }
 /* ////////////////////////////////////////////////////////////part8 */
 .farahnaz{
@@ -49,33 +51,33 @@
     overflow: hidden; 
 }
 .pic2, .pic3, .card__bodyleft, .card__body{
-    transition: all 500ms ease 0s;
+    transition: $_transition_1;
 }  
 .cardWrapper:hover .pic2{
     transform: scale(1.05,1.05);
 }
 .cardWrapper:hover .card__body{
-    background-color:rgb(236, 236, 236) ;
+    background-color: $_background_color_1 ;
 }
 .cardWrapper:hover .pic3{
     transform: scale(1.05,1.05);
 }
 .cardWrapper:hover .card__bodyleft{
-    background-color:rgb(236, 236, 236) ;
+    background-color: $_background_color_1 ;
 }
 /* /////////////////////////////////////////////////////////////////////////////////part9 */
 .socialLink__title:hover{
-    text-decoration: underline;
+    text-decoration: $_text_decoration;
 }
 /* ///////////////////////////////////////////////////////////////////////////////////part10 */
 .socialMarketingImageWrapper{
     overflow: hidden;
 }
 .socialMarketingImageWrappe, .pic4{
-    transition: all 500ms ease 0s;  
+    transition:$_transition_1;  
 }
 .socialMarketing__link:hover .linkBody{
-    background-color:rgba(236, 236, 236,1.5) ;
+    background-color: rgba(236, 236, 236,1.5) ;
     color: white;
 }
 .socialMarketing__link:hover .pic4{
@@ -87,6 +89,6 @@
 }
 .footer_title_part1{
     font-size: 19px;
-    color: rgb(105, 105, 105);
+    color: $_color_1;
     font-weight: bold;
 }

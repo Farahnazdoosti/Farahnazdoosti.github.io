@@ -1,3 +1,5 @@
+@import"variables";
+
 /* ////////////////////////////////////////////////////part1 */
 .navigation_icon{
     position: absolute;
@@ -18,7 +20,7 @@
     height: 3px;
     margin-top: 30px;
     transform: scaleX(0);
-    transition: all 230ms ease 0s;
+    transition: $_transition_2;
 }
 .nav-part2-a:hover::after {
     transform: scaleX(1);
@@ -45,7 +47,7 @@
 } 
 /* //////////////////////////////////////////part12 */
 .finish__item{
-    list-style-type: none;
+    list-style-type: $_list_style_type;
 }
 .copyright__legal{
     font-size: 14px;
@@ -54,8 +56,8 @@
     width:50px ;
 }
 .finish__item:hover {
-    text-decoration: underline;
-    color:rgb(105, 105, 105) ;
+    text-decoration: $_text_decoration;
+    color: $_color_1 ;
 }
 
 

@@ -1,3 +1,5 @@
+@import"variables";
+
 /* ////////////////////////////////////////////////////////////part8 */
 .pic2{
     height: 543px;
@@ -13,6 +15,6 @@
     width:50px ;
 }
 .finish__item:hover {
-    text-decoration: underline;
-    color:rgb(105, 105, 105) ;
+    text-decoration: $_text_decoration;
+    color: $_color_1 ;
 }

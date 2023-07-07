@@ -5,7 +5,6 @@
 }
 .navigation{
     position: relative;
-    
 }
 .nav-part2-a{
     padding-top: 50px;
@@ -18,14 +17,16 @@
     width: 100%;
     height: 3px;
     margin-top: 30px;
-    
     transform: scaleX(0);
     transition: all 230ms ease 0s;
-
 }
-
 .nav-part2-a:hover::after {
     transform: scaleX(1);
+}
+/* ////////////////////////////////////////////////////////////part3 */
+.f{
+    margin-left:  calc(1vw + 65px);
+    margin-right: calc(1vw + 65px);
 }
 /* ////////////////////////////////////////////////////////////part8 */
 .pic2{
@@ -42,7 +43,6 @@
     bottom:0;
     height: 40%;
     background-color: rgba(236,236,236,0.5);
-    
 }
 .socialMarketing__link:hover .linkBody{
     background-color: rgba(85,85,85,0.5);

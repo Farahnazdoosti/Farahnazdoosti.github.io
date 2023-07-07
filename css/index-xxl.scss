@@ -1,3 +1,5 @@
+@import"variables";
+
 /* ////////////////////////////////////////////////////part1 */
 .navigation_icon{
     position: absolute;
@@ -18,10 +20,15 @@
     height: 3px;
     margin-top: 30px;
     transform: scaleX(0);
-    transition: all 230ms ease 0s;
+    transition: $_transition_2;
 }
 .nav-part2-a:hover::after {
     transform: scaleX(1);
+}
+/* ////////////////////////////////////////////////////////////part3 */
+.f{
+    margin-left:  calc(1vw + 65px);
+    margin-right: calc(1vw + 65px);
 }
 /* ////////////////////////////////////////////////////////////part8 */
 .pic2{
@@ -43,19 +50,31 @@
     background-color: rgba(85,85,85,0.5);
     color: white;
 } 
+/* //////////////////////////////////////////////////////////////////part11 */
+.shortcut__item, .shortcut__subitem{
+    list-style-type: $_list_style_type;
+}
+.shortcut__item{
+    color: $_color_1;
+    font-size: 20px;
+    font-weight: bold;
+}
+.shortcut__link{
+    color: $_color_1;
+    font-size: 19px;
+}
+.shortcut__subitem:hover{
+    text-decoration: $_text_decoration;
+    color: $_color_1 ;
+}
 /* //////////////////////////////////////////part12 */
 .finish__item{
-    list-style-type: none;
+    list-style-type: $_list_style_type;
 }
 .copyright__legal{
     font-size: 14px;
 }
-.copyright__logo{
-    width:50px ;
-}
 .finish__item:hover {
-    text-decoration: underline;
+    text-decoration: $_text_decoration;
     color:rgb(105, 105, 105) ;
 }
-
-
